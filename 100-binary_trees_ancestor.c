@@ -59,5 +59,5 @@ binary_tree_t *binary_trees_ancestor(
 		second = second->parent;
 	}
 
-	return (first);
+	return ((binary_tree_t *)first);
 }
