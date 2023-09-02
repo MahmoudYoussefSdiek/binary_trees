@@ -2,6 +2,7 @@
 #define BINARY_TREES_H
 
 #include <stdlib.h>
+#include <limits.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -54,5 +55,6 @@ int binary_tree_is_bst(const binary_tree_t *tree);
 
 
 int is_complete(const binary_tree_t *tree, size_t index, size_t nodes_count);
+int is_bst(const binary_tree_t *tree, int min, int max);
 
 #endif
