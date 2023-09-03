@@ -60,5 +60,6 @@ bst_t *bst_remove(bst_t *root, int value);
 
 int is_complete(const binary_tree_t *tree, size_t index, size_t nodes_count);
 int is_bst(const binary_tree_t *tree, int min, int max);
+bst_t *get_min_value(bst_t *node);
 
 #endif
